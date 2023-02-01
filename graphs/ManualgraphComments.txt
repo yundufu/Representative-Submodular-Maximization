@@ -1,0 +1,14 @@
+
+
+
+All ManualGraphs for comparing k-greedy with local search for representative submodular maximization problem are created the following algorithm:
+      For every pair of vertices (u, v) randomly chose a value p from P.
+       Place an edge from u to v with probability p.
+       Here we have to consider all possible pairs, so you should consider both the pairs (u v) and (v u).
+       But do not consider pairs of the form (u u).
+
+ManualGraph1: n = 100,  P ={0.2}
+
+ManualGraph2: n = 100, P = {0.2, 0.4}
+
+ManualGraph3: n = 100, P = {0.2, 0.4, 0.6}
